@@ -60,7 +60,7 @@ POST /products
 }
 
 ### Actualizar un Producto
-PUT /products/1
+PUT /products/{id}
 {
 	"nombre": "Teclado",
   "descripcion": "Marca keychron",
